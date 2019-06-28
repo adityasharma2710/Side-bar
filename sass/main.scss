@@ -1,0 +1,99 @@
+$color-but: rgba(201, 176, 176, 0.92);
+$color-font: #fff;
+$color-hover: #393636;
+
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.block{
+    position: absolute;
+    display: block;
+    align-content: center;
+    
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+    
+   
+    
+}
+
+.text{
+    display: block;
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+.but-position{
+    position: fixed;
+    width: 30%;
+    height: auto;
+    z-index: 1;
+    
+}
+
+.para-position{
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 70%;
+    height: auto;
+    
+}
+
+#para1{
+    display: block;
+    height: 500px;
+    width: 100%;
+    border: solid;
+}
+
+#para2{
+    display: block;
+    height: 500px;
+    width: 100%;
+    border: solid;
+}
+
+#para3{
+    display: block;
+    height: 500px;
+    width: 100%;
+    border: solid;
+}
+
+#para4{
+    display: block;
+    height: 500px;
+    width: 100%;
+    border: solid;
+}
+
+.but-style{
+    display: block;
+    font-size: 4rem;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    background-color: $color-but;
+    color: white;
+    transition: all .3s;
+    
+    &:hover{
+        background-color: $color-hover;
+        
+}
+
+.link{
+    text-decoration: none;
+    color: $color-font;
+    
+    
+    }
+} 
+    
